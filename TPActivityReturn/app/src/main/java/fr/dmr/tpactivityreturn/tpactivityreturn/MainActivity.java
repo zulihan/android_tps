@@ -6,9 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import static fr.dmr.tpactivityreturn.tpactivityreturn.MyConstants.REQUEST_CODE;
+
 public class MainActivity extends AppCompatActivity {
 
-    private final static int REQUEST_CODE=1;
     TextView txtResult;
 
     @Override
