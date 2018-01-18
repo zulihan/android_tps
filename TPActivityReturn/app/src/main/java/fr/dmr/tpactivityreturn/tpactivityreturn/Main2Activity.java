@@ -24,7 +24,7 @@ public class Main2Activity extends AppCompatActivity {
         String s = txtValue.getText().toString();
         Intent i = new Intent();
         i.putExtra("TXT_VALUE",s);
-        setResult(RESULT_CODE, i);
+        setResult(RESULT_OK, i);
         finish();
     }
 
